@@ -1,0 +1,59 @@
+.cabezera {
+background-color: rgb(231, 183, 124);
+text-align: center;
+}
+
+.contenedor{
+    display: flex;
+}
+.izquierda {
+    flex: 1;
+    background-color: rgb(247, 243, 21);
+    text-align: center;
+    }
+
+.central {
+    flex: 2;
+    background-color: rgb(53, 235, 68);
+    text-align: center;
+    }
+
+.derecha{
+    flex: 3;
+    background-color: rgb(122, 240, 248);
+    text-align: left;
+    }
+
+    .izquierdaabajo {
+        flex: 1;
+        background-color: rgb(127, 21, 247);
+        text-align: center;
+        }
+    
+    
+    
+    .derechaabajo{
+        flex: 1;
+        background-color: rgb(238, 110, 206);
+        text-align: left;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            color: #ffffff;
+            background-color: #fa0606; /* Color del botón */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 2.3s ease;
+        }
+        
+        .button:hover {
+            background-color: #5109d8; /* Color al pasar el mouse */
+        }
+        
+        .button:visited {
+            background-color: #6c757d; /* Color cuando el enlace ha sido visitado */
+        }
